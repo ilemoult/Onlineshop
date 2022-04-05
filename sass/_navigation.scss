@@ -1,0 +1,38 @@
+.site-navigation{
+    position: fixed;
+    z-index: 50;
+}
+
+.site-navigation ul{
+    
+}
+
+.site-navigation ul li{
+    list-style: none;
+    margin-right: 3rem;
+    float: left;
+}
+
+.site-navigation ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.innen {
+    display: none;
+    width: 7rem;
+    z-index: 2;
+    margin-left: -2.5rem;
+    height: 13rem;
+    position: absolute;
+    background-color: white;
+    opacity: 80%;
+    overflow: hidden;
+    line-height: 2.5rem;
+    padding-top: 1rem;
+    border-radius: 4%;
+}
+
+.produkte-navi:hover .innen{
+    display: block;
+}
