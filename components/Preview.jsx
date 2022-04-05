@@ -1,17 +1,17 @@
 import React from 'react';
 import Image from 'next/image';
+import { getFormattedPrice } from '../js/formattedprices';
 
-export default function Preview( {image, title} ) {
+export default function Preview({ image, title, price }) {
   return (
     <article>
-        <div>
-        <img
-          src={image}
-          width="300"
-          height="460"
-          alt=''
-          loading="lazy" />
+      <div>
+        <div className="product-images-preview">
+          <img href="" src={image} width="300" height="460" alt="" loading="lazy" className="preview-image" />
         </div>
+        <div className="product-title">{title}</div>
+        <div className="product-price">{getFormattedPrice(price)}</div>
+      </div>
     </article>
   );
-};
+}
