@@ -1,6 +1,6 @@
 import Layout from '../components/Layout';
 
-export default function warenkorb() {
+export default function basket() {
   return (
     <Layout title="colorized.">
       

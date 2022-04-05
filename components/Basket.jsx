@@ -1,13 +1,13 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import basket from '../public/einkaufswagen.png';
+import Basketpic from '../public/einkaufswagen.png';
 
-export default function warenkorb() {
+export default function Basket() {
   return (
     <div  className="warenkorb">
-      <Link href="/warenkorb">
-        <Image src={basket} alt="Warenkorb" />
+      <Link href="/basket">
+        <Image src={Basketpic} alt="Warenkorb" />
       </Link>
     </div>
   )

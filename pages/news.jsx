@@ -1,6 +1,6 @@
 import Layout from '../components/Layout';
 
-export default function neuheiten() {
+export default function news() {
   return (
     <Layout title="colorized.">
       

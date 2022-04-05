@@ -1,8 +1,6 @@
-import Link from 'next/link';
 import Navigation from './Navigation';
-import Warenkorb from './Warenkorb';
+import Basket from './Basket';
 import Selection from './Selection';
-
 import Search from './Search';
 
 export default function Header() {
@@ -11,7 +9,7 @@ export default function Header() {
       <Search />
       <Navigation />
       <Selection />
-      <Warenkorb />
+      <Basket />
     </header>
   );
 }
