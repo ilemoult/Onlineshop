@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <footer className="site-footer">
-      <div className="inner-width">
+      <div>
         &copy; Isabelle le Moult {new Date().getFullYear()}
       </div>
     </footer>

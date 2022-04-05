@@ -4,6 +4,11 @@ export default function Navigation() {
   return (
     <nav className="site-navigation">
       <ul>
+      <li>
+          <Link href="/index">
+            <a>Home</a>
+          </Link>
+        </li>
         <li>
           <Link href="/news">
             <a>Neuheiten</a>

@@ -2,7 +2,7 @@ export default [
   {
     id: 1,
     title: "Anzughose mit Schlitz hinten",
-    image: "/public/img/Anzughose mit Schlitz hinten.jpg",
+    image: "/img/Anzughose mit Schlitz hinten.jpg",
     price: 5299,
     produktgruppe: "Hosen",
     sale: false,
@@ -13,7 +13,7 @@ export default [
   {
     id: 2,
     title: "Asymmetrisches kurzes Kleid mit dünnen Trägern",
-    image: "/public/img/Asymmetrisches kurzes Kleid mit dünnen Trägern.jpg",
+    image: "/img/Asymmetrisches kurzes Kleid mit dünnen Trägern.jpg",
     price: 3299,
     produktgruppe: "Kleider",
     sale: true,
@@ -24,7 +24,7 @@ export default [
   {
     id: 3,
     title: "Baumwollbluse mit gesmockter Taille",
-    image: "/public/img/Baumwollbluse mit gesmockter Taille.jpg",
+    image: "/img/Baumwollbluse mit gesmockter Taille.jpg",
     price: 3099,
     produktgruppe: "Blusen",
     sale: false,
@@ -35,7 +35,7 @@ export default [
   {
     id: 4,
     title: "Bluse mit Zierfalten und Trompetenärmeln",
-    image: "/public/img/Bluse mit Zierfalten und Trompetenärmeln.jpg",
+    image: "/img/Bluse mit Zierfalten und Trompetenärmeln.jpg",
     price: 2099,
     produktgruppe: "Blusen",
     sale: true,
@@ -46,7 +46,7 @@ export default [
   {
     id: 5,
     title: "Cropped Stricktop",
-    image: "/public/img/Cropped Stricktop.jpg",
+    image: "/img/Cropped Stricktop.jpg",
     price: 1999,
     produktgruppe: "Shirts",
     sale: true,
@@ -57,7 +57,7 @@ export default [
   {
     id: 6,
     title: "Cropped-Strickpullover mit Rundhalsausschnitt",
-    image: "/public/img/Cropped-Strickpullover mit Rundhalsausschnitt.jpg",
+    image: "/img/Cropped-Strickpullover mit Rundhalsausschnitt.jpg",
     price: 4299,
     produktgruppe: "Pullover",
     sale: false,
@@ -68,7 +68,7 @@ export default [
   {
     id: 7,
     title: "Dropped-Shoulder-Strickjacke mit Knöpfen",
-    image: "/public/img/Dropped-Shoulder-Strickjacke mit Knöpfen",
+    image: "/img/Dropped-Shoulder-Strickjacke mit Knöpfen",
     price: 3399,
     produktgruppe: "Pullover",
     sale: true,
@@ -79,7 +79,7 @@ export default [
   {
     id: 8,
     title: "Drop-Shoulder Strickoberteil",
-    image: "/public/img/Drop-Shoulder Strickoberteil.jpg",
+    image: "/img/Drop-Shoulder Strickoberteil.jpg",
     price: 4899,
     produktgruppe: "Pullover",
     sale: false,
@@ -90,7 +90,7 @@ export default [
   {
     id: 9,
     title: "Geripptes Unterhemd mit rundem Ausschnitt aus ökologischem Material",
-    image: "/public/img/Geripptes Unterhemd mit rundem Ausschnitt aus ökologischem Material.jpg",
+    image: "/img/Geripptes Unterhemd mit rundem Ausschnitt aus ökologischem Material.jpg",
     price: 1599,
     produktgruppe: "Shirts",
     sale: true,
@@ -101,7 +101,7 @@ export default [
   {
     id: 10,
     title: "Klassische Anzughose",
-    image: "/public/img/Klassische Anzughose.jpg",
+    image: "/img/Klassische Anzughose.jpg",
     price: 4899,
     produktgruppe: "Hosen",
     sale: false,
@@ -112,7 +112,7 @@ export default [
   {
     id: 11,
     title: "Kurzärmeliges Minikleid mit offenem Rücken",
-    image: "/public/img/Kurzärmeliges Minikleid mit offenem Rücken.jpg",
+    image: "/img/Kurzärmeliges Minikleid mit offenem Rücken.jpg",
     price: 4299,
     produktgruppe: "Kleider",
     sale: false,
@@ -123,7 +123,7 @@ export default [
   {
     id: 12,
     title: "Kurze Lurex-Strickjacke",
-    image: "/public/img/Kurze Lurex-Strickjacke.jpg",
+    image: "/img/Kurze Lurex-Strickjacke.jpg",
     price: 3899,
     produktgruppe: "Pullover",
     sale: true,
@@ -134,7 +134,7 @@ export default [
   {
     id: 13,
     title: "Kurze Melange-Anzughose",
-    image: "/public/img/Kurze Melange-Anzughose.jpg",
+    image: "/img/Kurze Melange-Anzughose.jpg",
     price: 5299,
     produktgruppe: "Hosen",
     sale: false,
@@ -145,7 +145,7 @@ export default [
   {
     id: 14,
     title: "Kurzes geripptes Shirt mit langen Ärmeln",
-    image: "/public/img/Kurzes geripptes Shirt mit langen Ärmeln.jpg",
+    image: "/img/Kurzes geripptes Shirt mit langen Ärmeln.jpg",
     price: 2299,
     produktgruppe: "Shirts",
     sale: true,
@@ -156,7 +156,7 @@ export default [
   {
     id: 15,
     title: "Kurzes geripptes Top mit langen Ärmeln",
-    image: "/public/img/Kurzes geripptes Top mit langen Ärmeln.jpg",
+    image: "/img/Kurzes geripptes Top mit langen Ärmeln.jpg",
     price: 2899,
     produktgruppe: "Shirts",
     sale: false,
@@ -167,7 +167,7 @@ export default [
   {
     id: 16,
     title: "Kurzes Top mit Mesh-Detail",
-    image: "/public/img/Kurzes Top mit Mesh-Detail.jpg",
+    image: "/img/Kurzes Top mit Mesh-Detail.jpg",
     price: 2199,
     produktgruppe: "Shirts",
     sale: false,
@@ -178,7 +178,7 @@ export default [
   {
     id: 17,
     title: "Langärmliges geripptes Bio-Oberteil mit V-Ausschnitt",
-    image: "/public/img/Langärmliges geripptes Bio-Oberteil mit V-Ausschnitt.jpg",
+    image: "/img/Langärmliges geripptes Bio-Oberteil mit V-Ausschnitt.jpg",
     price: 3399,
     produktgruppe: "Shirts",
     sale: false,
@@ -189,7 +189,7 @@ export default [
   {
     id: 18,
     title: "Lange, gerade geschnittene Hose aus Leinenmischung",
-    image: "/public/img/Lange, gerade geschnittene Hose aus Leinenmischung.jpg",
+    image: "/img/Lange, gerade geschnittene Hose aus Leinenmischung.jpg",
     price: 4899,
     produktgruppe: "Hosen",
     sale: false,
@@ -200,7 +200,7 @@ export default [
   {
     id: 19,
     title: "Langes Trompetenärmel-Top",
-    image: "/public/img/Langes Trompetenärmel-Top.jpg",
+    image: "/img/Langes Trompetenärmel-Top.jpg",
     price: 1899,
     produktgruppe: "Shirts",
     sale: true,
@@ -211,7 +211,7 @@ export default [
   {
     id: 20,
     title: "Mid-Rise-PU-Hose",
-    image: "/public/img/Mid-Rise-PU-Hose.jpg",
+    image: "/img/Mid-Rise-PU-Hose.jpg",
     price: 4899,
     produktgruppe: "Hosen",
     sale: false,
@@ -222,7 +222,7 @@ export default [
   {
     id: 21,
     title: "Minikleid",
-    image: "/public/img/Minikleid.jpg",
+    image: "/img/Minikleid.jpg",
     price: 4899,
     produktgruppe: "Kleider",
     sale: false,
@@ -233,7 +233,7 @@ export default [
   {
     id: 22,
     title: "Neckholder-Bodysuit",
-    image: "/public/img/Neckholder-Bodysuit.jpg",
+    image: "/img/Neckholder-Bodysuit.jpg",
     price: 2599,
     produktgruppe: "Hosen",
     sale: false,
@@ -244,7 +244,7 @@ export default [
   {
     id: 23,
     title: "Organic geripptes Tank-Top",
-    image: "/public/img/Organic geripptes Tank-Top.jpg",
+    image: "/img/Organic geripptes Tank-Top.jpg",
     price: 1799,
     produktgruppe: "Shirts",
     sale: true,
@@ -255,7 +255,7 @@ export default [
   {
     id: 24,
     title: "Organische farbige weiche steife weite Jeanshose",
-    image: "/public/img/Organische farbige weiche steife weite Jeanshose.jpg",
+    image: "/img/Organische farbige weiche steife weite Jeanshose.jpg",
     price: 4899,
     produktgruppe: "Hosen",
     sale: false,
@@ -266,7 +266,7 @@ export default [
   {
     id: 25,
     title: "Organische hohe Taille Roher Saum Gerade Jeans",
-    image: "/public/img/Organische hohe Taille Roher Saum Gerade Jeans.jpg",
+    image: "/img/Organische hohe Taille Roher Saum Gerade Jeans.jpg",
     price: 4299,
     produktgruppe: "Hosen",
     sale: false,
@@ -277,7 +277,7 @@ export default [
   {
     id: 26,
     title: "Organische Skinny Jeans mit hoher Taille",
-    image: "/public/img/Organische Skinny Jeans mit hoher Taille.jpg",
+    image: "/img/Organische Skinny Jeans mit hoher Taille.jpg",
     price: 4099,
     produktgruppe: "Hosen",
     sale: false,
@@ -288,7 +288,7 @@ export default [
   {
     id: 27,
     title: "Organischer Ripp-Strickpullover zum Wickeln",
-    image: "/public/img/Organischer Ripp-Strickpullover zum Wickeln.jpg",
+    image: "/img/Organischer Ripp-Strickpullover zum Wickeln.jpg",
     price: 4099,
     produktgruppe: "Pullover",
     sale: false,
@@ -299,7 +299,7 @@ export default [
   {
     id: 28,
     title: "Organischer Strickjacke mit Volumenärmeln",
-    image: "/public/img/Organischer Strickjacke mit Volumenärmeln.jpg",
+    image: "/img/Organischer Strickjacke mit Volumenärmeln.jpg",
     price: 4899,
     produktgruppe: "Pullover",
     sale: false,
@@ -310,7 +310,7 @@ export default [
   {
     id: 29,
     title: "Organischer, kurzer Strickpullover mit einem Rollkragen",
-    image: "/public/img/Organischer, kurzer Strickpullover mit einem Rollkragen.jpg",
+    image: "/img/Organischer, kurzer Strickpullover mit einem Rollkragen.jpg",
     price: 4299,
     produktgruppe: "Pullover",
     sale: false,
@@ -321,7 +321,7 @@ export default [
   {
     id: 30,
     title: "Organisches Anglaise-UnterhemdOrganisches Anglaise-Unterhemd",
-    image: "/public/img/Organisches Anglaise-UnterhemdOrganisches Anglaise-Unterhemd.jpg",
+    image: "/img/Organisches Anglaise-UnterhemdOrganisches Anglaise-Unterhemd.jpg",
     price: 1399,
     produktgruppe: "Shirts",
     sale: true,
@@ -332,7 +332,7 @@ export default [
   {
     id: 31,
     title: "Organisches Minikleid mit V-Ausschnitt",
-    image: "/public/img/Organisches Minikleid mit V-Ausschnitt.jpg",
+    image: "/img/Organisches Minikleid mit V-Ausschnitt.jpg",
     price: 5599,
     produktgruppe: "Kleider",
     sale: false,
@@ -343,7 +343,7 @@ export default [
   {
     id: 32,
     title: "Organisches Rüschentop",
-    image: "/public/img/Organisches Rüschentop.jpg",
+    image: "/img/Organisches Rüschentop.jpg",
     price: 1899,
     produktgruppe: "Shirts",
     sale: true,
@@ -354,7 +354,7 @@ export default [
   {
     id: 33,
     title: "Recycelt gestrickt eingewickelt strickjacke",
-    image: "/public/img/Recycelt gestrickt eingewickelt strickjacke.jpg",
+    image: "/img/Recycelt gestrickt eingewickelt strickjacke.jpg",
     price: 4299,
     produktgruppe: "Pullover",
     sale: false,
@@ -365,7 +365,7 @@ export default [
   {
     id: 34,
     title: "Recycelte Dobby-Bluse mit Volant",
-    image: "/public/img/Recycelte Dobby-Bluse mit Volant.jpg",
+    image: "/img/Recycelte Dobby-Bluse mit Volant.jpg",
     price: 3099,
     produktgruppe: "Blusen",
     sale: false,
@@ -376,7 +376,7 @@ export default [
   {
     id: 35,
     title: "Recycelte gerippte Hose mit Schlitz",
-    image: "/public/img/Recycelte gerippte Hose mit Schlitz.jpg",
+    image: "/img/Recycelte gerippte Hose mit Schlitz.jpg",
     price: 5099,
     produktgruppe: "Hosen",
     sale: false,
@@ -387,7 +387,7 @@ export default [
   {
     id: 36,
     title: "Recycelte Satinbluse Overlap",
-    image: "/public/img/Recycelte Satinbluse Overlap.jpg",
+    image: "/img/Recycelte Satinbluse Overlap.jpg",
     price: 3399,
     produktgruppe: "Blusen",
     sale: false,
@@ -398,7 +398,7 @@ export default [
   {
     id: 37,
     title: "Recyceltes recyceltes Smock-Crop-Top",
-    image: "/public/img/Recyceltes recyceltes Smock-Crop-Top.jpg",
+    image: "/img/Recyceltes recyceltes Smock-Crop-Top.jpg",
     price: 3299,
     produktgruppe: "Shirts",
     sale: false,
@@ -409,7 +409,7 @@ export default [
   {
     id: 38,
     title: "Recyceltes Strukturiertes Chiffon-Midikleid",
-    image: "/public/img/Recyceltes Strukturiertes Chiffon-Midikleid.jpg",
+    image: "/img/Recyceltes Strukturiertes Chiffon-Midikleid.jpg",
     price: 5799,
     produktgruppe: "Kleider",
     sale: false,
@@ -420,7 +420,7 @@ export default [
   {
     id: 39,
     title: "Recyceltes Wrap-Top",
-    image: "/public/img/Recyceltes Wrap-Top.jpg",
+    image: "/img/Recyceltes Wrap-Top.jpg",
     price: 1899,
     produktgruppe: "Shirts",
     sale: true,
@@ -431,7 +431,7 @@ export default [
   {
     id: 40,
     title: "Rippoberteil mit tiefem Rundhalsausschnitt",
-    image: "/public/img/Rippoberteil mit tiefem Rundhalsausschnitt.jpg",
+    image: "/img/Rippoberteil mit tiefem Rundhalsausschnitt.jpg",
     price: 3599,
     produktgruppe: "Pullover",
     sale: true,
@@ -442,7 +442,7 @@ export default [
   {
     id: 41,
     title: "Strick-Cardigan mit Detail",
-    image: "/public/img/Strick-Cardigan mit Detail.jpg",
+    image: "/img/Strick-Cardigan mit Detail.jpg",
     price: 4399,
     produktgruppe: "Pullover",
     sale: false,
@@ -453,7 +453,7 @@ export default [
   {
     id: 42,
     title: "Strickpullover",
-    image: "/public/img/Strickpullover.jpg",
+    image: "/img/Strickpullover.jpg",
     price: 5299,
     produktgruppe: "Pullover",
     sale: false,
@@ -464,7 +464,7 @@ export default [
   {
     id: 43,
     title: "Strukturiertes Kleid mit Kitteldetail",
-    image: "/public/img/Strukturiertes Kleid mit Kitteldetail.jpg",
+    image: "/img/Strukturiertes Kleid mit Kitteldetail.jpg",
     price: 5099,
     produktgruppe: "Kleider",
     sale: false,
@@ -475,7 +475,7 @@ export default [
   {
     id: 44,
     title: "Strukturiertes Langarm-Shirt",
-    image: "/public/img/Strukturiertes Langarm-Shirt.jpg",
+    image: "/img/Strukturiertes Langarm-Shirt.jpg",
     price: 5799,
     produktgruppe: "Shirts",
     sale: false,
@@ -486,7 +486,7 @@ export default [
   {
     id: 45,
     title: "Strukturiertes Midikleid mit Körbchen",
-    image: "/public/img/Strukturiertes Midikleid mit Körbchen.jpg",
+    image: "/img/Strukturiertes Midikleid mit Körbchen.jpg",
     price: 5199,
     produktgruppe: "Kleider",
     sale: false,
@@ -497,7 +497,7 @@ export default [
   {
     id: 46,
     title: "Top mit Rüschendetail",
-    image: "/public/img/Top mit Rüschendetail.jpg",
+    image: "/img/Top mit Rüschendetail.jpg",
     price: 2899,
     produktgruppe: "Shirts",
     sale: false,
@@ -508,7 +508,7 @@ export default [
   {
     id: 47,
     title: "Twist-Ripp-Midikleid",
-    image: "/public/img/Twist-Ripp-Midikleid.jpg",
+    image: "/img/Twist-Ripp-Midikleid.jpg",
     price: 5199,
     produktgruppe: "Kleider",
     sale: false,
@@ -519,7 +519,7 @@ export default [
   {
     id: 48,
     title: "Weste Strickpullover",
-    image: "/public/img/Weste Strickpullover.jpg",
+    image: "/img/Weste Strickpullover.jpg",
     price: 4299,
     produktgruppe: "Pullover",
     sale: false,
