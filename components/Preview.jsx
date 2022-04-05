@@ -7,7 +7,7 @@ export default function Preview({ image, title, price }) {
     <article>
       <div>
         <div className="product-images-preview">
-          <img href="" src={image} width="300" height="460" alt="" loading="lazy" className="preview-image" />
+          <Image href="" src={image} width="354" height="532" alt="" loading="lazy" className="preview-image" />
         </div>
         <div className="product-title">{title}</div>
         <div className="product-price">{getFormattedPrice(price)}</div>

@@ -3,7 +3,7 @@ import products from '../js/products';
 import MainOpener from '../components/Mainopener';
 import Previewselection from '../components/Previewselection.jsx';
 
-export default function Home() {
+export default function home() {
   return (
     <Layout title="colorized.">
       <MainOpener/>

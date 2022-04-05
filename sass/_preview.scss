@@ -1,8 +1,9 @@
 .outfit-mix{
-    border: solid hotpink 5px;
     margin: auto;
-    width: 70vw;
-    margin-bottom: 6rem;
+    width: 75vw;
+    height: 44vw;
+    border: solid hotpink 5px;
+    margin-bottom: 4rem;
     margin-top: -4rem;
 }
 
@@ -12,12 +13,19 @@
 
 .outfits{
     margin: auto;
+    height: 620px;
+    width: 1150px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 2rem;
-    width: 66vw;
 }
 
 .preview-image{
     cursor: pointer;
+}
+
+.preview-image:hover
+{
+	transform: scale(1.04);
+	transition: .2s;
 }
