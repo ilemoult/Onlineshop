@@ -1,11 +1,20 @@
-import { getFormattedPrice } from '../js/formattedprices';
+import ProductInterface from './ProductInterface';
 
-export default function Products( {title, image, price} ) {
+export default function Products({ products }) {
   return (
-    <article>
-      <div className="product-images"><img src={image} alt='' loading='lazy' /></div>
-      <div className="product-title">{title}</div>
-      <div className="product-price">{getFormattedPrice(price)}</div>
-    </article>
+    <section className="image-section">
+      <div className="products-headline">Alle Styles</div>
+      <div className="products-images">
+        {products.map(({ id, title, image, price }) => (
+          <ProductInterface
+            key={id}
+            title={title}
+            image={image}
+            price={price}
+            alt={title}
+          />
+        ))}
+      </div>
+    </section>
   );
-};
+}

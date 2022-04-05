@@ -1,11 +1,11 @@
 import ProductInterface from './ProductInterface';
 
-export default function News({ products }) {
+export default function Sales({ products }) {
   return (
     <section className="image-section">
-      <div className="products-headline">Unsere Neuheiten</div>
+      <div className="products-headline">Sales</div>
       <div className="products-images">
-        {products.filter((searchfor) => searchfor.new == true).map(({ id, title, image, price }) => (
+        {products.filter((searchfor) => searchfor.sale == true).map(({ id, title, image, price }) => (
           <ProductInterface
             key={id}
             title={title}

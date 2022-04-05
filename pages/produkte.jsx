@@ -1,11 +1,11 @@
 import Layout from '../components/Layout';
-import ProductsList from '../components/ProductsList';
+import Products from '../components/Products';
 import products from '../js/products';
 
 export default function produkte() {
   return (
     <Layout title="colorized.">
-        <ProductsList products={products} />
+        <Products products={products} />
     </Layout>
   )
 }

@@ -7,8 +7,8 @@ export default [
     produktgruppe: "Hosen",
     sale: false,
     color: "grau",
-    mostWanted: true,
-    new: true,
+    mostWanted: false,
+    new: false,
   },
   {
     id: 2,
@@ -18,7 +18,7 @@ export default [
     produktgruppe: "Kleider",
     sale: true,
     color: "schwarz",
-    mostWanted: false,
+    mostWanted: true,
     new: false,
   },
   {
