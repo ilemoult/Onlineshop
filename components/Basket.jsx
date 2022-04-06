@@ -7,10 +7,9 @@ export default function Basket() {
   return (
     <div  className="warenkorb">
       <Link href="/basket">
-        <Image src={Basketpic} alt="Warenkorb" />
+        {/* <a><Image src={Basketpic} alt="Warenkorb" /></a> */}
+        <a>Warenkorb</a>
       </Link>
     </div>
   )
 };
-
-

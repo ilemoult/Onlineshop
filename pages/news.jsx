@@ -4,7 +4,7 @@ import products from '../js/products';
 
 export default function news() {
   return (
-    <Layout title="colorized.">
+    <Layout title="Neuheiten">
       <News products={products} />
     </Layout>
   );

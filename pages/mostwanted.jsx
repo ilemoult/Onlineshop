@@ -4,7 +4,7 @@ import products from '../js/products';
 
 export default function mostwanted() {
   return (
-    <Layout title="colorized.">
+    <Layout title="MostWanted">
       <MostWanted products={products} />
     </Layout>
   );

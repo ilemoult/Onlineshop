@@ -235,7 +235,7 @@ export default [
     title: "Neckholder-Bodysuit",
     image: "/img/Neckholder-Bodysuit.jpg",
     price: 2599,
-    produktgruppe: "Hosen",
+    produktgruppe: "Shirts",
     sale: false,
     color: "bunt",
     mostWanted: false,

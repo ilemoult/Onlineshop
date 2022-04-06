@@ -4,7 +4,7 @@ import products from '../js/products';
 
 export default function pullover() {
   return (
-    <Layout title="colorized.">
+    <Layout title="Pullover">
       <Pullover products={products} />
     </Layout>
   );

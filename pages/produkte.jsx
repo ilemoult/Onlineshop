@@ -4,7 +4,7 @@ import products from '../js/products';
 
 export default function produkte() {
   return (
-    <Layout title="colorized.">
+    <Layout title="Produkte">
         <Products products={products} />
     </Layout>
   )

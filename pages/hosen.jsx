@@ -4,7 +4,7 @@ import products from '../js/products';
 
 export default function hosen() {
   return (
-    <Layout title="colorized.">
+    <Layout title="Hosen">
       <Hosen products={products} />
     </Layout>
   );

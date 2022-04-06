@@ -4,7 +4,7 @@ import products from '../js/products';
 
 export default function kleider(){
   return (
-    <Layout title="colorized.">
+    <Layout title="Kleider">
       <Kleider products={products} />
     </Layout>
   );

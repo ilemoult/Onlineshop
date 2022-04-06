@@ -4,7 +4,7 @@ import products from '../js/products';
 
 export default function blusen() {
   return (
-    <Layout title="colorized.">
+    <Layout title="Blusen">
       <Blusen products={products} />
     </Layout>
   );

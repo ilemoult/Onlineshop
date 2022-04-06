@@ -1,13 +1,24 @@
-import React, { useState } from 'react';
+import { useRouter } from 'next/router';
 
 export default function Search() {
+  const router = useRouter();
 
-  const [value, setValue] = useState("search");
-  function startSearch(){
-    setValue('');
-  };
+  function submit(e) {
+    e.preventDefault();
+    const form = e.currentTarget;
+    const suche = form.elements.suche.value;
+    router.push({
+      pathname: '/filterproducts',
+      query: { suche },
+    })
+  }
 
   return (
-    <input className="search" type="text" value={value} onClick={startSearch} />
-  )
+    <form onSubmit={submit} className="searchform">
+      <input className="search" type="search" id="keyWord" name="suche" />
+      <button className="loupe" type="submit">
+        &#128269;
+      </button>
+    </form>
+  );
 }
