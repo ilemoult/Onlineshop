@@ -7,6 +7,7 @@ export default function Search() {
     e.preventDefault();
     const form = e.currentTarget;
     const suche = form.elements.suche.value;
+
     router.push({
       pathname: '/filterproducts',
       query: { suche },
@@ -16,7 +17,7 @@ export default function Search() {
   return (
     <form onSubmit={submit} className="searchform">
       <input className="search" type="search" id="keyWord" name="suche" />
-      <button type="submit" className="loupe">&#128269;</button>
+      <button type="submit" className="loupe" >&#128269;</button>
     </form>
   );
 }
