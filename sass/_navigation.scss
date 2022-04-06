@@ -1,10 +1,8 @@
 .site-navigation{
-    position: fixed;
     z-index: 50;
-}
-
-.site-navigation ul{
-    
+    margin: auto;
+    position: relative;
+    top:-0.8rem
 }
 
 .site-navigation ul li{

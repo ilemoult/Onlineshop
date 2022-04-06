@@ -7,7 +7,7 @@ export default function ProductInterface( {title, image, price} ) {
       <div className="product-images">
         <Image
           src={image}
-          alt='' width='354'
+          alt='Produktfoto' width='354'
           height='532'
           loading='lazy'
         />
