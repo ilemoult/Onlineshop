@@ -14,6 +14,7 @@ export default function ProductInterface( {title, image, price} ) {
         />
       </div>
       <button className="item-to-basket">+</button>
+      <button className="item-favorite">🤍</button>
       <div className="product-title">{title}</div>
       <div className="product-price">{getFormattedPrice(price)}</div>
     </article>

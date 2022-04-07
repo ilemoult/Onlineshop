@@ -55,5 +55,17 @@
     background-color: yellow;
     border: none;
     cursor: pointer;
+    margin-right: 0.5rem;
     margin-top: 0.6rem;
+}
+
+.item-favorite{
+    border-radius: 100%;
+    height: 2rem;
+    font-size: 100%;
+    width: 2rem;
+    margin-left: 0.5rem;
+    background-color: yellow;
+    cursor: pointer;
+    border: none;
 }

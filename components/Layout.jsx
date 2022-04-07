@@ -4,6 +4,7 @@ import Header from './Header';
 
 export default function Layout({ children, title }) {
   return (
+    <div>
     <div className="site-wrapper">
       <Head>
         <title>{title || 'colorized.'}</title>
@@ -13,7 +14,8 @@ export default function Layout({ children, title }) {
       <main>
         {children}
       </main>
-      <Footer />
+    </div>
+    <Footer className="site-footer" />
     </div>
   );
 }
