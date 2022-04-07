@@ -1,5 +1,6 @@
 import React from 'react';
 
+// Sale Banner auf der Startseite
 export default function SaleAction() {
   return (
     <article className="spring-sale">

@@ -4,8 +4,8 @@ import ProductInterface from './ProductInterface';
 
 export default function Products({ products }) {
 
-  const [colorId, setColorId] = useState(0)
-  const filteredProducts = getFilteredProducts(products, colorId);
+  const [colorId, setColorId] = useState(0);
+  const filteredProducts = getFilteredProducts(products, colorId); // Enthält nur die Datensatz-Objekte, bei denen eine Übereinstimmung in color vorliegt
 
   //URL durch Farbfilter Setzung Manipulieren und beim Reload beibehalten START
   // URL auslesen und nach Parametern suchen 
@@ -49,6 +49,7 @@ export default function Products({ products }) {
   );
 };
 
+// Farbfilter über ein Dropdown Menü
 export function getFilteredProducts(products, colorId){
 
   const noColorFilter = colorId === 0;

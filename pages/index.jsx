@@ -4,6 +4,7 @@ import MainOpener from '../components/Mainopener';
 import Previewselection from '../components/Previewselection.jsx';
 import SaleAction from '../components/SaleAction.jsx';
 
+// Mainpage / Startseite
 export default function home() {
 
   return (

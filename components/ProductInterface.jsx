@@ -1,6 +1,7 @@
 import { getFormattedPrice } from '../js/formattedprices';
 import Image from 'next/image';
 
+// Layout für jedes einzelne Produktfoto
 export default function ProductInterface( {title, image, price} ) {
   return (
     <article>

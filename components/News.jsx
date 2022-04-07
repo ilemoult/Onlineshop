@@ -6,7 +6,7 @@ import FilterForm from './FilterForm';
 export default function News({ products }) {
 
   const [colorId, setColorId] = useState(0)
-  const filteredProducts = getFilteredProducts(products, colorId);
+  const filteredProducts = getFilteredProducts(products, colorId); // Enthält nur die Datensatz-Objekte, bei denen eine Übereinstimmung in color vorliegt
 
   //URL durch Farbfilter Setzung Manipulieren und beim Reload beibehalten START
   // URL auslesen und nach Parametern suchen 
@@ -19,7 +19,7 @@ export default function News({ products }) {
   }, [])
 
   // neu URL auf Grundlage der alten konstruieren
-  useEffect(() => {const url = new URL(window.location.href);
+  useEffect(() => {const url = new URL(window.location.href); 
     // 'produkte' aus URL abschneiden
     url.searchParams.delete('produkte');
     // 'produkte' wieder dran setzen (Name) mit zusätzlichen Farbwert-Filter (Wert)

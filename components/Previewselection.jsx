@@ -6,6 +6,8 @@ export default function Previewselection({ products }) {
 
   const [randomProducts, setRandomProducts] = useState([]);
   
+  // Drei Produkte werden zufällig ausgesucht
+  // Mischt die Objekte im Datensatz durch und schneidet die ersten drei ab
   useEffect(() => {
       const random = shuffle(products);
       setRandomProducts(random.slice(0,3))

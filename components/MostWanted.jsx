@@ -6,7 +6,7 @@ import { useState,useEffect } from 'react';
 export default function MostWanted({ products }) {
 
   const [colorId, setColorId] = useState(0)
-  const filteredProducts = getFilteredProducts(products, colorId);
+  const filteredProducts = getFilteredProducts(products, colorId); // Enthält nur die Datensatz-Objekte, bei denen eine Übereinstimmung in color vorliegt
 
   //URL durch Farbfilter Setzung Manipulieren und beim Reload beibehalten START
   // URL auslesen und nach Parametern suchen 
