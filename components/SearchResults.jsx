@@ -6,7 +6,7 @@ import products from '../js/products';
 export default function SearchResults() {
   const router = useRouter();
   const searchTerm = router.query.suche ?? '';
-  console.log(searchTerm);
+  // console.log(searchTerm);
   const filteredProducts = getfilteredProducts(products, searchTerm);
 
   return (
