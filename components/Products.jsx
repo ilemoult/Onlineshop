@@ -30,7 +30,7 @@ export default function Products({ products }) {
   );
 };
 
-function getFilteredProducts(products, colorId){
+export function getFilteredProducts(products, colorId){
 
   const noColorFilter = colorId === 0;
 
