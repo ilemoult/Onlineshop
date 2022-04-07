@@ -3,8 +3,6 @@ import Basket from './Basket';
 import Selection from './Selection';
 import Search from './Search';
 
-import React from 'react';
-
 export default function Header() {
 
   return (
