@@ -17,7 +17,7 @@ export default function Search() {
   return (
     <form onSubmit={submit} className="searchform">
       <input className="search" type="search" id="keyWord" name="suche" />
-      <button type="submit" className="loupe" >&#128269;</button>
+      <button type="submit" className="loupe" title="Suche starten" >&#128269;</button>
     </form>
   );
 }

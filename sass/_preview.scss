@@ -1,10 +1,12 @@
 .outfit-mix{
     margin: auto;
-    width: 75vw;
-    height: 44vw;
-    border: solid hotpink 5px;
-    margin-bottom: 4rem;
-    margin-top: -4rem;
+    padding-bottom: 2rem;
+    border: solid rgb(252, 210, 176) 5px;
+    border-radius: 5rem;
+
+    width: min-content;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 .outfit-mix h1{
@@ -20,13 +22,18 @@
     margin-bottom: 2rem;
 }
 
+.preview .basket-or-favorite{
+    text-align: center;
+}
+
 .preview-image{
     cursor: pointer;
     max-width: 100%;
+    border-radius: 1rem;
 }
 
-.preview-image:hover
+/* .preview-image:hover
 {
 	transform: scale(1.04);
 	transition: .2s;
-}
+} */

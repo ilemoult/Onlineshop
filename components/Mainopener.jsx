@@ -1,12 +1,12 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import header from '../public/img/header_1900.jpg';
+import header from '../public/img/header2.jpg';
 
 export default function MainOpener() {
   return (
-    <div>
-      <Image src={header} alt="Header" className="header" layout="responsive" />
+    <div className="header">
+      <Image src={header} alt="Header"  layout="responsive" />
       <div>
         <Link href="/index">
           <a className="brand-name">colorized.</a>

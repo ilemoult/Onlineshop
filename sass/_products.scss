@@ -52,7 +52,7 @@
     height: 2rem;
     font-size: 100%;
     width: 2rem;
-    background-color: yellow;
+    background-color: rgb(252, 210, 176);
     border: none;
     cursor: pointer;
     margin-right: 0.5rem;
@@ -65,7 +65,11 @@
     font-size: 100%;
     width: 2rem;
     margin-left: 0.5rem;
-    background-color: yellow;
+    background-color: rgb(252, 210, 176);
     cursor: pointer;
     border: none;
+}
+
+.single-product-image{
+    border-radius: 1rem;
 }

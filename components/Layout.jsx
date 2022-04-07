@@ -8,7 +8,7 @@ export default function Layout({ children, title }) {
     <div className="site-wrapper">
       <Head>
         <title>{title || 'colorized.'}</title>
-        <link rel="icon" href="/apple-icon.png" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
       <Header />
       <main>

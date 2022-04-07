@@ -4,7 +4,7 @@ export default function Selection() {
   return (
     <div className="selection">
       <Link href="/selection">
-        <a>♡</a>
+        <a title="Meine Favoriten">♡</a>
       </Link>
     </div>
   );

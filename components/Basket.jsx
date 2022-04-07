@@ -5,7 +5,14 @@ export default function Basket() {
   return (
     <div className="warenkorb">
       <Link href="/basket">
-          <a ><img src='/einkaufswagen.png' width="30" height="30" alt="Warenkorb" /></a>
+          <a title="Warenkorb/ Checkout">
+            <img 
+              src='/einkaufswagen.png' 
+              width="30" 
+              height="30" 
+              alt="Warenkorb" 
+            />
+          </a>
       </Link>
     </div>
   )

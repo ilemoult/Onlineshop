@@ -31,6 +31,6 @@ export default function SearchResults() {
 // Abgleichung des Suchbegriffes mit der Datenbank START
 function getfilteredProducts(products, searchTerm) {
   const keywordRegExp = new RegExp(searchTerm, 'i');
-  return products.filter(({ title, color, produktgruppe }) => keywordRegExp.test(title) || keywordRegExp.test(color) || keywordRegExp.test(produktgruppe));
+  return products.filter(({ title, colorstring, produktgruppe }) => keywordRegExp.test(title) || keywordRegExp.test(colorstring) || keywordRegExp.test(produktgruppe));
 }
 // Abgleichung des Suchbegriffes mit der Datenbank ENDE

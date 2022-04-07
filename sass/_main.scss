@@ -8,3 +8,39 @@ body{
 .site-wrapper{
     padding-bottom: 10rem;
 }
+
+.spring-sale{
+    background-color: rgb(252, 210, 176);
+    margin-bottom: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-top: -15rem;
+}
+
+.sale-items{
+    text-align: center;
+    vertical-align:auto;
+}
+
+.sale-button{
+    width: 12rem;
+    height: 3rem;
+    border-radius: 5rem;
+    margin-bottom: 1rem;
+    border: none;
+    background-color: black;
+    cursor: pointer;
+    color: white;
+    font-size: 1.3rem;
+    font-family: "Overpass Mono";
+}
+
+.sale-button:hover{
+    transform: scale(1.04);
+	transition: .1s;
+}
+
+.sale-text{
+    margin-top: 1rem;
+    font-size: 3rem;
+}
