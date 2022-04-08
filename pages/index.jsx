@@ -6,7 +6,6 @@ import SaleAction from '../components/SaleAction.jsx';
 
 // Mainpage / Startseite
 export default function home() {
-
   return (
     <Layout title="colorized.">
       <MainOpener />

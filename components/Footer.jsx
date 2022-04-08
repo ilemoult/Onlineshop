@@ -2,12 +2,11 @@ export default function Footer() {
   return (
     <div>
       <div className="social-and-pay">
-        <img 
-        src='/socialmedia-and-pay.png' 
-        alt="Social Media und Zahlungsmöglichkeiten" 
-        width="938" 
-        height="64" 
-        
+        <img
+          src="/socialmedia-and-pay.png"
+          alt="Social Media und Zahlungsmöglichkeiten"
+          width="938"
+          height="64"
         />
       </div>
       <footer className="site-footer">

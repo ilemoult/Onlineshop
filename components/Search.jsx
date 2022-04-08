@@ -4,7 +4,6 @@ import { useRouter } from 'next/router';
 // von jeder Seite aus möglich
 // gleicht immer alle Produkte ab
 export default function Search() {
-
   const router = useRouter();
 
   // Kein neuer Seitenaufruf nötig - url wird mit dem Pfad der filterproducts.jsx erweitert + dem Suchbegriff
@@ -17,13 +16,15 @@ export default function Search() {
     router.push({
       pathname: '/filterproducts',
       query: { suche },
-    })
+    });
   }
 
   return (
     <form onSubmit={submit} className="searchform">
       <input className="search" type="search" id="keyWord" name="suche" />
-      <button type="submit" className="loupe" title="Suche starten" >&#128269;</button>
+      <button type="submit" className="loupe" title="Suche starten">
+        &#128269;
+      </button>
     </form>
   );
 }

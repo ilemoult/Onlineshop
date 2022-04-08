@@ -3,37 +3,36 @@ import FilterForm from './FilterForm';
 import ProductInterface from './ProductInterface';
 
 export default function Products({ products }) {
-
   const [colorId, setColorId] = useState(0);
   const filteredProducts = getFilteredProducts(products, colorId); // Enthält nur die Datensatz-Objekte, bei denen eine Übereinstimmung in color vorliegt
 
   //URL durch Farbfilter Setzung Manipulieren und beim Reload beibehalten START
-  // URL auslesen und nach Parametern suchen 
+  // URL auslesen und nach Parametern suchen
   useEffect(() => {
     const url = new URL(window.location.href);
     const oldProdukte = url.searchParams.get('produkte');
-    if(oldProdukte){
+    if (oldProdukte) {
       setColorId(parseInt(oldProdukte));
     }
-  }, [])
+  }, []);
 
   // neu URL auf Grundlage der alten konstruieren
-  useEffect(() => {const url = new URL(window.location.href);
+  useEffect(() => {
+    const url = new URL(window.location.href);
     // 'produkte' aus URL abschneiden
     url.searchParams.delete('produkte');
     // 'produkte' wieder dran setzen (Name) mit zusätzlichen Farbwert-Filter (Wert)
-  if(colorId){url.searchParams.set('produkte', colorId)}
-  window.history.replaceState({}, '',url);
+    if (colorId) {
+      url.searchParams.set('produkte', colorId);
+    }
+    window.history.replaceState({}, '', url);
   }, [colorId]); // url nur ändern, wenn der Farbfilter geändert wird
   //URL durch Farbfilter Setzung Manipulieren und beim Reload beibehalten ENDE
 
   return (
     <section className="image-section">
       <div className="products-headline">Alle Styles</div>
-      <FilterForm
-      colorId={colorId} 
-      setColorId={setColorId} 
-      />
+      <FilterForm colorId={colorId} setColorId={setColorId} />
       <div className="products-images">
         {filteredProducts.map(({ id, title, image, price }) => (
           <ProductInterface
@@ -42,18 +41,17 @@ export default function Products({ products }) {
             image={image}
             price={price}
             alt={title}
+            id={id}
           />
         ))}
       </div>
     </section>
   );
-};
+}
 
 // Farbfilter über ein Dropdown Menü
-export function getFilteredProducts(products, colorId){
-
+export function getFilteredProducts(products, colorId) {
   const noColorFilter = colorId === 0;
 
-  return products.filter(({color}) => noColorFilter || color === colorId)
-
-};
+  return products.filter(({ color }) => noColorFilter || color === colorId);
+}

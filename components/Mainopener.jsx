@@ -6,7 +6,7 @@ import header from '../public/img/header2.jpg';
 export default function MainOpener() {
   return (
     <div className="header">
-      <Image src={header} alt="Header"  layout="responsive" />
+      <Image src={header} alt="Header" layout="responsive" />
       <div>
         <Link href="/index">
           <a className="brand-name">colorized.</a>

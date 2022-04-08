@@ -30,11 +30,15 @@ export default function SearchResults() {
 
 // Abgleichung des Suchbegriffes mit der Datenbank START
 function getfilteredProducts(products, searchTerm) {
-
   // Groß- und Kleinschreibung werden ignoriert
   const keywordRegExp = new RegExp(searchTerm, 'i');
 
   // Der User hat die Möglichkeit nach Titel (oder einzelne Wörter aus dem Titel), Farben oder Produktgruppen zu suchen
-  return products.filter(({ title, colorstring, produktgruppe }) => keywordRegExp.test(title) || keywordRegExp.test(colorstring) || keywordRegExp.test(produktgruppe));
+  return products.filter(
+    ({ title, colorstring, produktgruppe }) =>
+      keywordRegExp.test(title) ||
+      keywordRegExp.test(colorstring) ||
+      keywordRegExp.test(produktgruppe)
+  );
 }
 // Abgleichung des Suchbegriffes mit der Datenbank ENDE
