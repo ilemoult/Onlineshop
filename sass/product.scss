@@ -1,0 +1,59 @@
+.image-and-button_description{
+    padding-top: 6rem;
+    display: grid;
+    width: fit-content;
+    margin: auto;
+}
+
+.in-basket-product{
+    background-color: rgb(252, 210, 176);
+    border: none;
+    height: 3rem;
+    border-radius: 5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1rem;
+    font-family: 'Overpass Mono';
+}
+
+.product-image-container{
+    margin-right: 2rem;
+    grid-column: 1;
+}
+
+.product-image{
+    
+}
+
+.buttons-and-description{
+    margin-left: 0.5rem;
+    grid-column: 2;
+}
+
+.buttons-at-products{
+}
+
+.in-basket-product{
+    display: block;
+}
+
+.in-basket-product{
+    display: block;
+    margin-top: 1rem;
+}
+
+.in-basket-product:hover{
+    transform: scale(1.04);
+	transition: .1s;
+    cursor: pointer;
+}
+
+.in-basket-product:hover{
+    transform: scale(1.04);
+	transition: .1s;
+    cursor: pointer;
+}
+
+.product-description-headline{
+    width: 25vw;
+}

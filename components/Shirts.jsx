@@ -44,6 +44,7 @@ export default function Shirts({ products }) {
               image={image}
               price={price}
               alt={title}
+              id={id}
             />
           ))}
       </div>

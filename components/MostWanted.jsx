@@ -44,6 +44,7 @@ export default function MostWanted({ products }) {
               image={image}
               price={price}
               alt={title}
+              id={id}
             />
           ))}
       </div>

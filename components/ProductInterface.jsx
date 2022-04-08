@@ -1,6 +1,5 @@
 import { getFormattedPrice } from '../js/formattedprices';
 import Link from 'next/link';
-// import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 // Layout für jedes einzelne Produktfoto
 export default function ProductInterface({ title, image, price, id }) {

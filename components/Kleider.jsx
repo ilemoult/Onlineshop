@@ -44,6 +44,7 @@ export default function Kleider({ products }) {
               image={image}
               price={price}
               alt={title}
+              id={id}
             />
           ))}
       </div>
