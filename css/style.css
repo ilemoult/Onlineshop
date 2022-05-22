@@ -1,0 +1,74 @@
+body{
+    background-color: black;
+}
+
+#wrapper{
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    width: 87vw;
+    margin: auto;
+}
+
+#wochentag{
+    color: white;
+    font-size: 1300%;
+    font-family: 'Bebas Neue', cursive;
+    margin-right: 8rem;
+    background-color: rgb(10, 10, 10);
+    width: 20rem;
+    border-radius: 7%;
+    text-align: center;
+    height: 15rem;
+    float: left;
+}
+
+#am{
+    color: white;
+    font-size: 300%;
+    font-family: 'Bebas Neue', cursive;
+    width: 3rem;
+    height: 3rem;
+    float: left;
+    text-align: center;
+    position: relative;
+    top: 150px;
+    border-radius: 7%;
+
+}
+
+#stunde{
+    color: white;
+    font-size: 1300%;
+    font-family: 'Bebas Neue', cursive;
+    margin-right: 5rem;
+    width: 15rem;
+    height: 15rem;
+    text-align: center;
+    border-radius: 7%;
+    background-color: rgb(10, 10, 10);
+}
+
+#minute{
+    color: white;
+    font-size: 1300%;
+    font-family: 'Bebas Neue', cursive;
+    border-radius: 7%;
+    width: 15rem;
+    height: 15rem;
+    text-align: center;
+    margin-right: 5rem;
+    background-color: rgb(10, 10, 10);
+}
+
+#sekunde{
+    color: white;
+    font-size: 1300%;
+    border-radius: 7%;
+    height: 15rem;
+    width: 15rem;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    background-color: rgb(10, 10, 10);
+}
